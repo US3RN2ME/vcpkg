@@ -509,6 +509,11 @@ if(NOT VCPKG_CROSSCOMPILING OR EXISTS "${CURRENT_PACKAGES_DIR}/share/Qt6CoreTool
                          "PACKAGE_PREFIX_DIR}/bin/syncqt"
                          "PACKAGE_PREFIX_DIR}/tools/Qt6/bin/syncqt"
                          IGNORE_UNCHANGED)
+
+    vcpkg_replace_string("${CURRENT_PACKAGES_DIR}/share/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake"
+                         "CMAKE_CURRENT_LIST_DIR}/../../bin/syncqt"
+                         "CMAKE_CURRENT_LIST_DIR}/../../tools/Qt6/bin/syncqt"
+                         IGNORE_UNCHANGED)
 endif()
 
 set(configfile "${CURRENT_PACKAGES_DIR}/share/Qt6CoreTools/Qt6CoreToolsTargets-debug.cmake")
