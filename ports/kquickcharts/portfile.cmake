@@ -16,7 +16,7 @@ vcpkg_cmake_configure(
 )
 
 vcpkg_cmake_install()
-vcpkg_cmake_config_fixup(PACKAGE_NAME KF6QuickCharts CONFIG_PATH lib/cmake/KF6QuickCharts DO_NOT_DELETE_PARENT_CONFIG_PATH)
+vcpkg_cmake_config_fixup(PACKAGE_NAME QuickCharts CONFIG_PATH lib/cmake/KF6QuickCharts DO_NOT_DELETE_PARENT_CONFIG_PATH)
 vcpkg_copy_pdbs()
 
 if(VCPKG_LIBRARY_LINKAGE STREQUAL "static")
