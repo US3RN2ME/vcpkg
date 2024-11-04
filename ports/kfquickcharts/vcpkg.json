@@ -1,5 +1,5 @@
 {
-  "name": "kquickcharts",
+  "name": "kfquickcharts",
   "version": "6.8.0",
   "port-version": 1,
   "description": "A QtQuick module providing high-performance charts",
