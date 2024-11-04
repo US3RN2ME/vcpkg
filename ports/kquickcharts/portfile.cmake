@@ -2,7 +2,7 @@ vcpkg_from_github(
         OUT_SOURCE_PATH SOURCE_PATH
         REPO KDE/KQuickCharts
         REF v6.7.0
-        SHA512 db59d56747c4d87b822bdfc871ec3f3bc6d70a15
+        SHA512 0
         HEAD_REF master
 )
 
