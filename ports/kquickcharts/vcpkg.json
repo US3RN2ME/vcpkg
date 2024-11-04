@@ -1,0 +1,19 @@
+{
+  "name": "kquickcharts",
+  "version": "6.7.0",
+  "port-version": 1,
+  "description": "A QtQuick module providing high-performance charts",
+  "homepage": "https://api.kde.org/frameworks/kquickcharts/html/index.html",
+  "dependencies": [
+    "ecm",
+    "qtdeclarative",
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
