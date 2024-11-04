@@ -1,0 +1,4 @@
+Package kfquickcharts provides CMake targets:
+
+    find_package(KF6QuickCharts REQUIRED)
+    target_link_libraries(main PUBLIC QuickCharts)
