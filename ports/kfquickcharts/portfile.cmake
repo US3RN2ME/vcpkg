@@ -12,8 +12,8 @@ file(WRITE ${SOURCE_PATH}/.clang-format "DisableFormat: true\nSortIncludes: fals
 vcpkg_cmake_configure(SOURCE_PATH "${SOURCE_PATH}" OPTIONS -DBUILD_TESTING=OFF)
 
 vcpkg_cmake_install()
-vcpkg_cmake_config_fixup(PACKAGE_NAME KF6QuickCharts CONFIG_PATH lib/cmake/KF6QuickCharts)
-vcpkg_cmake_config_fixup(PACKAGE_NAME KF6QuickCharts CONFIG_PATH share/KF6QuickCharts)
+#vcpkg_cmake_config_fixup(PACKAGE_NAME KF6QuickCharts CONFIG_PATH lib/cmake/KF6QuickCharts)
+vcpkg_cmake_config_fixup(PACKAGE_NAME KF6QuickCharts CONFIG_PATH ../share/KF6QuickCharts)
 
 vcpkg_copy_pdbs()
 
