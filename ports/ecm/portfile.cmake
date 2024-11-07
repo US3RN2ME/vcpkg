@@ -1,7 +1,7 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO KDE/extra-cmake-modules
-    REF "v6.8.0-rc1"
+    REF "v6.7.0"
     SHA512 847ee19115c345006c306acc57fc16df2a278265fbccc9d05dcb5ded2d988c1094c785059ac108d61db25ed6e3bc48845e243611390b0349e63a9642b5498d7b
     HEAD_REF master
 )
